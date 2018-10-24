@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DC7AE8C21813ED5001628EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AE8B21813ED5001628EC /* AppDelegate.m */; };
+		5DC7AE8F21813ED5001628EC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AE8E21813ED5001628EC /* FirstViewController.m */; };
+		5DC7AE9221813ED5001628EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AE9121813ED5001628EC /* SecondViewController.m */; };
+		5DC7AE9521813ED5001628EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7AE9321813ED5001628EC /* Main.storyboard */; };
+		5DC7AE9721813ED7001628EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7AE9621813ED7001628EC /* Assets.xcassets */; };
+		5DC7AE9A21813ED7001628EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC7AE9821813ED7001628EC /* LaunchScreen.storyboard */; };
+		5DC7AE9D21813ED7001628EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AE9C21813ED7001628EC /* main.m */; };
+		5DC7AEA721813ED7001628EC /* iMocsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AEA621813ED7001628EC /* iMocsTests.m */; };
+		5DC7AEB221813ED7001628EC /* iMocsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AEB121813ED7001628EC /* iMocsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DC7AEA321813ED7001628EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DC7AE7F21813ED5001628EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DC7AE8621813ED5001628EC;
+			remoteInfo = iMocs;
+		};
+		5DC7AEAE21813ED7001628EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DC7AE7F21813ED5001628EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DC7AE8621813ED5001628EC;
+			remoteInfo = iMocs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DC7AE8721813ED5001628EC /* iMocs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMocs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC7AE8A21813ED5001628EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DC7AE8B21813ED5001628EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DC7AE8D21813ED5001628EC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5DC7AE8E21813ED5001628EC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5DC7AE9021813ED5001628EC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5DC7AE9121813ED5001628EC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5DC7AE9421813ED5001628EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DC7AE9621813ED7001628EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DC7AE9921813ED7001628EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DC7AE9B21813ED7001628EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC7AE9C21813ED7001628EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DC7AEA221813ED7001628EC /* iMocsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMocsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC7AEA621813ED7001628EC /* iMocsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMocsTests.m; sourceTree = "<group>"; };
+		5DC7AEA821813ED7001628EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC7AEAD21813ED7001628EC /* iMocsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMocsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC7AEB121813ED7001628EC /* iMocsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMocsUITests.m; sourceTree = "<group>"; };
+		5DC7AEB321813ED7001628EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DC7AE8421813ED5001628EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC7AE9F21813ED7001628EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC7AEAA21813ED7001628EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DC7AE7E21813ED5001628EC = {
+			isa = PBXGroup;
+			children = (
+				5DC7AE8921813ED5001628EC /* iMocs */,
+				5DC7AEA521813ED7001628EC /* iMocsTests */,
+				5DC7AEB021813ED7001628EC /* iMocsUITests */,
+				5DC7AE8821813ED5001628EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DC7AE8821813ED5001628EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DC7AE8721813ED5001628EC /* iMocs.app */,
+				5DC7AEA221813ED7001628EC /* iMocsTests.xctest */,
+				5DC7AEAD21813ED7001628EC /* iMocsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DC7AE8921813ED5001628EC /* iMocs */ = {
+			isa = PBXGroup;
+			children = (
+				5DC7AE8A21813ED5001628EC /* AppDelegate.h */,
+				5DC7AE8B21813ED5001628EC /* AppDelegate.m */,
+				5DC7AE8D21813ED5001628EC /* FirstViewController.h */,
+				5DC7AE8E21813ED5001628EC /* FirstViewController.m */,
+				5DC7AE9021813ED5001628EC /* SecondViewController.h */,
+				5DC7AE9121813ED5001628EC /* SecondViewController.m */,
+				5DC7AE9321813ED5001628EC /* Main.storyboard */,
+				5DC7AE9621813ED7001628EC /* Assets.xcassets */,
+				5DC7AE9821813ED7001628EC /* LaunchScreen.storyboard */,
+				5DC7AE9B21813ED7001628EC /* Info.plist */,
+				5DC7AE9C21813ED7001628EC /* main.m */,
+			);
+			path = iMocs;
+			sourceTree = "<group>";
+		};
+		5DC7AEA521813ED7001628EC /* iMocsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DC7AEA621813ED7001628EC /* iMocsTests.m */,
+				5DC7AEA821813ED7001628EC /* Info.plist */,
+			);
+			path = iMocsTests;
+			sourceTree = "<group>";
+		};
+		5DC7AEB021813ED7001628EC /* iMocsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DC7AEB121813ED7001628EC /* iMocsUITests.m */,
+				5DC7AEB321813ED7001628EC /* Info.plist */,
+			);
+			path = iMocsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DC7AE8621813ED5001628EC /* iMocs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC7AEB621813ED7001628EC /* Build configuration list for PBXNativeTarget "iMocs" */;
+			buildPhases = (
+				5DC7AE8321813ED5001628EC /* Sources */,
+				5DC7AE8421813ED5001628EC /* Frameworks */,
+				5DC7AE8521813ED5001628EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMocs;
+			productName = iMocs;
+			productReference = 5DC7AE8721813ED5001628EC /* iMocs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DC7AEA121813ED7001628EC /* iMocsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC7AEB921813ED7001628EC /* Build configuration list for PBXNativeTarget "iMocsTests" */;
+			buildPhases = (
+				5DC7AE9E21813ED7001628EC /* Sources */,
+				5DC7AE9F21813ED7001628EC /* Frameworks */,
+				5DC7AEA021813ED7001628EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DC7AEA421813ED7001628EC /* PBXTargetDependency */,
+			);
+			name = iMocsTests;
+			productName = iMocsTests;
+			productReference = 5DC7AEA221813ED7001628EC /* iMocsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DC7AEAC21813ED7001628EC /* iMocsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC7AEBC21813ED7001628EC /* Build configuration list for PBXNativeTarget "iMocsUITests" */;
+			buildPhases = (
+				5DC7AEA921813ED7001628EC /* Sources */,
+				5DC7AEAA21813ED7001628EC /* Frameworks */,
+				5DC7AEAB21813ED7001628EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DC7AEAF21813ED7001628EC /* PBXTargetDependency */,
+			);
+			name = iMocsUITests;
+			productName = iMocsUITests;
+			productReference = 5DC7AEAD21813ED7001628EC /* iMocsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DC7AE7F21813ED5001628EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = akh;
+				TargetAttributes = {
+					5DC7AE8621813ED5001628EC = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5DC7AEA121813ED7001628EC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5DC7AE8621813ED5001628EC;
+					};
+					5DC7AEAC21813ED7001628EC = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5DC7AE8621813ED5001628EC;
+					};
+				};
+			};
+			buildConfigurationList = 5DC7AE8221813ED5001628EC /* Build configuration list for PBXProject "iMocs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DC7AE7E21813ED5001628EC;
+			productRefGroup = 5DC7AE8821813ED5001628EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DC7AE8621813ED5001628EC /* iMocs */,
+				5DC7AEA121813ED7001628EC /* iMocsTests */,
+				5DC7AEAC21813ED7001628EC /* iMocsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DC7AE8521813ED5001628EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC7AE9A21813ED7001628EC /* LaunchScreen.storyboard in Resources */,
+				5DC7AE9721813ED7001628EC /* Assets.xcassets in Resources */,
+				5DC7AE9521813ED5001628EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC7AEA021813ED7001628EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC7AEAB21813ED7001628EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DC7AE8321813ED5001628EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC7AE9221813ED5001628EC /* SecondViewController.m in Sources */,
+				5DC7AE8C21813ED5001628EC /* AppDelegate.m in Sources */,
+				5DC7AE9D21813ED7001628EC /* main.m in Sources */,
+				5DC7AE8F21813ED5001628EC /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC7AE9E21813ED7001628EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC7AEA721813ED7001628EC /* iMocsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC7AEA921813ED7001628EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC7AEB221813ED7001628EC /* iMocsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DC7AEA421813ED7001628EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DC7AE8621813ED5001628EC /* iMocs */;
+			targetProxy = 5DC7AEA321813ED7001628EC /* PBXContainerItemProxy */;
+		};
+		5DC7AEAF21813ED7001628EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DC7AE8621813ED5001628EC /* iMocs */;
+			targetProxy = 5DC7AEAE21813ED7001628EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DC7AE9321813ED5001628EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC7AE9421813ED5001628EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DC7AE9821813ED7001628EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC7AE9921813ED7001628EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DC7AEB421813ED7001628EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DC7AEB521813ED7001628EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DC7AEB721813ED7001628EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPTYM9P94J;
+				INFOPLIST_FILE = iMocs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobugware.iMocs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DC7AEB821813ED7001628EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPTYM9P94J;
+				INFOPLIST_FILE = iMocs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobugware.iMocs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DC7AEBA21813ED7001628EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPTYM9P94J;
+				INFOPLIST_FILE = iMocsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobugware.iMocsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMocs.app/iMocs";
+			};
+			name = Debug;
+		};
+		5DC7AEBB21813ED7001628EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPTYM9P94J;
+				INFOPLIST_FILE = iMocsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobugware.iMocsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMocs.app/iMocs";
+			};
+			name = Release;
+		};
+		5DC7AEBD21813ED7001628EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPTYM9P94J;
+				INFOPLIST_FILE = iMocsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobugware.iMocsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMocs;
+			};
+			name = Debug;
+		};
+		5DC7AEBE21813ED7001628EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPTYM9P94J;
+				INFOPLIST_FILE = iMocsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobugware.iMocsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMocs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DC7AE8221813ED5001628EC /* Build configuration list for PBXProject "iMocs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC7AEB421813ED7001628EC /* Debug */,
+				5DC7AEB521813ED7001628EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DC7AEB621813ED7001628EC /* Build configuration list for PBXNativeTarget "iMocs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC7AEB721813ED7001628EC /* Debug */,
+				5DC7AEB821813ED7001628EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DC7AEB921813ED7001628EC /* Build configuration list for PBXNativeTarget "iMocsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC7AEBA21813ED7001628EC /* Debug */,
+				5DC7AEBB21813ED7001628EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DC7AEBC21813ED7001628EC /* Build configuration list for PBXNativeTarget "iMocsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC7AEBD21813ED7001628EC /* Debug */,
+				5DC7AEBE21813ED7001628EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DC7AE7F21813ED5001628EC /* Project object */;
+}
