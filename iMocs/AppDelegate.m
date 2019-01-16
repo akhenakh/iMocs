@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "TRVSEventSource.h"
 
+@import NetworkExtension;
+TRVSEventSource *eventSource;
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
+  
+  
   return YES;
 }
 
@@ -40,6 +45,50 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
   // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+  
+  // diable idle timer
+  [UIApplication sharedApplication].idleTimerDisabled = YES;
+  
+  dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    // connect to wifi
+    [self connectToWiFI];
+    
+    TRVSEventSource *eventSource = [[TRVSEventSource alloc] initWithURL:[NSURL URLWithString:@"http://192.168.12.1:9403/sse"]];
+    //eventSource.delegate = self;
+    
+    [eventSource addListenerForEvent:@"position" usingEventHandler:^(TRVSServerSentEvent *event, NSError *error) {
+      if (error != nil) {
+        NSLog(@"error SSE: %@", [error localizedDescription]);
+      } else {
+        NSDictionary *json = [NSJSONSerialization JSONObjectWithData:event.data options:0 error:NULL];
+        NSLog(@"%@", json);
+      }
+      }];
+    
+    [eventSource open];
+  });
+}
+
+- (void) connectToWiFI {
+  __block BOOL connected = NO;
+  while (!connected) {
+    NEHotspotConfiguration *configuration = [[NEHotspotConfiguration alloc] initWithSSID: @"mocs" passphrase:@"thisismocs" isWEP: NO];
+    configuration.joinOnce = YES;
+    [[NEHotspotConfigurationManager sharedManager] applyConfiguration: configuration completionHandler: ^ (NSError * _Nullable error) {
+      if (error == nil) {
+        NSLog (@"WIFI Is Connected!!");
+        connected = YES;
+        return;
+      }
+      if (error.code == NEHotspotConfigurationErrorAlreadyAssociated) {
+        NSLog (@"WIFI was Connected!!");
+        connected = YES;
+        return;
+      }
+      NSLog (@"Error is: %@", error);
+    }];
+    [NSThread sleepForTimeInterval:0.5];
+  }
 }
 
 

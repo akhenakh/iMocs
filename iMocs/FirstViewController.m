@@ -7,8 +7,10 @@
 //
 
 #import "FirstViewController.h"
+@import Mapbox;
 
 @interface FirstViewController ()
+@property (strong, nonatomic) IBOutlet MGLMapView *mapView;
 
 @end
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
+  self.mapView.logoView.hidden = YES;
 }
 
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D135C2C2187D26C00FC9FD4 /* MJPEGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D135C2B2187D26C00FC9FD4 /* MJPEGViewController.m */; };
+		5D52D8BF219B545A0066AFF7 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D52D8BE219B545A0066AFF7 /* ExternalAccessory.framework */; };
 		5DC7AE8C21813ED5001628EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AE8B21813ED5001628EC /* AppDelegate.m */; };
 		5DC7AE8F21813ED5001628EC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AE8E21813ED5001628EC /* FirstViewController.m */; };
 		5DC7AE9221813ED5001628EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AE9121813ED5001628EC /* SecondViewController.m */; };
@@ -16,6 +18,10 @@
 		5DC7AE9D21813ED7001628EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AE9C21813ED7001628EC /* main.m */; };
 		5DC7AEA721813ED7001628EC /* iMocsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AEA621813ED7001628EC /* iMocsTests.m */; };
 		5DC7AEB221813ED7001628EC /* iMocsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7AEB121813ED7001628EC /* iMocsUITests.m */; };
+		5DC7AEC121813F1C001628EC /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC7AEC021813F1C001628EC /* NetworkExtension.framework */; };
+		5DC7AEC421813F6D001628EC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC7AEC321813F6D001628EC /* MapKit.framework */; };
+		5DD45584218D122B008F5F58 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DD45583218D122B008F5F58 /* Settings.bundle */; };
+		F4D04D6C7A10F09C772E6F1E /* Pods_iMocs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EA275EA01415E8482F7492 /* Pods_iMocs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D135C2A2187D26C00FC9FD4 /* MJPEGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPEGViewController.h; sourceTree = "<group>"; };
+		5D135C2B2187D26C00FC9FD4 /* MJPEGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPEGViewController.m; sourceTree = "<group>"; };
+		5D389FD2218145D900798332 /* iMocs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMocs-Bridging-Header.h"; sourceTree = "<group>"; };
+		5D52D8BE219B545A0066AFF7 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		5DC7AE8721813ED5001628EC /* iMocs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMocs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC7AE8A21813ED5001628EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DC7AE8B21813ED5001628EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +64,13 @@
 		5DC7AEAD21813ED7001628EC /* iMocsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMocsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC7AEB121813ED7001628EC /* iMocsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMocsUITests.m; sourceTree = "<group>"; };
 		5DC7AEB321813ED7001628EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC7AEC021813F1C001628EC /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		5DC7AEC221813F1C001628EC /* iMocs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iMocs.entitlements; sourceTree = "<group>"; };
+		5DC7AEC321813F6D001628EC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5DD45583218D122B008F5F58 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8E8DCD3774414E94917461F8 /* Pods-iMocs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMocs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMocs/Pods-iMocs.debug.xcconfig"; sourceTree = "<group>"; };
+		9DBA6224F75EEF66C7AC9273 /* Pods-iMocs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMocs.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMocs/Pods-iMocs.release.xcconfig"; sourceTree = "<group>"; };
+		E2EA275EA01415E8482F7492 /* Pods_iMocs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMocs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC7AEC421813F6D001628EC /* MapKit.framework in Frameworks */,
+				5DC7AEC121813F1C001628EC /* NetworkExtension.framework in Frameworks */,
+				5D52D8BF219B545A0066AFF7 /* ExternalAccessory.framework in Frameworks */,
+				F4D04D6C7A10F09C772E6F1E /* Pods_iMocs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		371922F3864AA7E4A61E0C8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E8DCD3774414E94917461F8 /* Pods-iMocs.debug.xcconfig */,
+				9DBA6224F75EEF66C7AC9273 /* Pods-iMocs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5DC7AE7E21813ED5001628EC = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +118,8 @@
 				5DC7AEA521813ED7001628EC /* iMocsTests */,
 				5DC7AEB021813ED7001628EC /* iMocsUITests */,
 				5DC7AE8821813ED5001628EC /* Products */,
+				5DC7AEBF21813F1C001628EC /* Frameworks */,
+				371922F3864AA7E4A61E0C8B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +136,8 @@
 		5DC7AE8921813ED5001628EC /* iMocs */ = {
 			isa = PBXGroup;
 			children = (
+				5DD45583218D122B008F5F58 /* Settings.bundle */,
+				5DC7AEC221813F1C001628EC /* iMocs.entitlements */,
 				5DC7AE8A21813ED5001628EC /* AppDelegate.h */,
 				5DC7AE8B21813ED5001628EC /* AppDelegate.m */,
 				5DC7AE8D21813ED5001628EC /* FirstViewController.h */,
@@ -115,6 +149,9 @@
 				5DC7AE9821813ED7001628EC /* LaunchScreen.storyboard */,
 				5DC7AE9B21813ED7001628EC /* Info.plist */,
 				5DC7AE9C21813ED7001628EC /* main.m */,
+				5D389FD2218145D900798332 /* iMocs-Bridging-Header.h */,
+				5D135C2A2187D26C00FC9FD4 /* MJPEGViewController.h */,
+				5D135C2B2187D26C00FC9FD4 /* MJPEGViewController.m */,
 			);
 			path = iMocs;
 			sourceTree = "<group>";
@@ -137,6 +174,17 @@
 			path = iMocsUITests;
 			sourceTree = "<group>";
 		};
+		5DC7AEBF21813F1C001628EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D52D8BE219B545A0066AFF7 /* ExternalAccessory.framework */,
+				5DC7AEC321813F6D001628EC /* MapKit.framework */,
+				5DC7AEC021813F1C001628EC /* NetworkExtension.framework */,
+				E2EA275EA01415E8482F7492 /* Pods_iMocs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DC7AEB621813ED7001628EC /* Build configuration list for PBXNativeTarget "iMocs" */;
 			buildPhases = (
+				F7EB31EB3ACA035609EDCBD5 /* [CP] Check Pods Manifest.lock */,
 				5DC7AE8321813ED5001628EC /* Sources */,
 				5DC7AE8421813ED5001628EC /* Frameworks */,
 				5DC7AE8521813ED5001628EC /* Resources */,
+				7F1721530B9F9F04E417E7EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,6 +254,21 @@
 				TargetAttributes = {
 					5DC7AE8621813ED5001628EC = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.HotspotConfiguration = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 					5DC7AEA121813ED7001628EC = {
 						CreatedOnToolsVersion = 10.0;
@@ -240,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD45584218D122B008F5F58 /* Settings.bundle in Resources */,
 				5DC7AE9A21813ED7001628EC /* LaunchScreen.storyboard in Resources */,
 				5DC7AE9721813ED7001628EC /* Assets.xcassets in Resources */,
 				5DC7AE9521813ED5001628EC /* Main.storyboard in Resources */,
@@ -262,6 +328,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F1721530B9F9F04E417E7EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iMocs/Pods-iMocs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeIconFactory/FontAwesomeIconFactory.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/TRVSEventSource/TRVSEventSource.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeIconFactory.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRVSEventSource.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMocs/Pods-iMocs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7EB31EB3ACA035609EDCBD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMocs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5DC7AE8321813ED5001628EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -271,6 +396,7 @@
 				5DC7AE8C21813ED5001628EC /* AppDelegate.m in Sources */,
 				5DC7AE9D21813ED7001628EC /* main.m in Sources */,
 				5DC7AE8F21813ED5001628EC /* FirstViewController.m in Sources */,
+				5D135C2C2187D26C00FC9FD4 /* MJPEGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,40 +559,56 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		5DC7AEB721813ED7001628EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8DCD3774414E94917461F8 /* Pods-iMocs.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iMocs/iMocs.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LPTYM9P94J;
 				INFOPLIST_FILE = iMocs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nobugware.iMocs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iMocs/iMocs-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		5DC7AEB821813ED7001628EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBA6224F75EEF66C7AC9273 /* Pods-iMocs.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iMocs/iMocs.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LPTYM9P94J;
 				INFOPLIST_FILE = iMocs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nobugware.iMocs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iMocs/iMocs-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
